@@ -24,45 +24,66 @@
 </head>
 
 <body>
-    <header class="container-fluid">
+    <header class="container-fluid fixed-top">
         <div class="container-xl">
-        <div class="row">
-            <div class="col settings d-flex justify-content-between pt-3 d-none d-lg-flex">
-                <ul class="list-unstyled d-flex">
-                    <li class="pe-5 ps-2"><i class="fas fa-globe"></i> English <i class="fas fa-chevron-down"></i></li>
-                    <li><i class="fas fa-user"></i> Contact Sales</li>
-                </ul>
-                <ul class="list-unstyled d-flex">
-                    <li class="pe-4"><i class="fas fa-search"></i></li>
-                    <li class="pe-2">Log in</li>
-                    <li class="px-4">Customer Support</li>
-                    <li class="pe-4">About <i class="fas fa-chevron-down"></i></li>
-                </ul>
+            <div class="row">
+                <!-- settings menu nav -->
+                <div class="col settings d-flex justify-content-between pt-3 d-none d-lg-flex">
+                    <ul class="list-unstyled d-flex">
+                        <li class="pe-5 ps-2"><i class="fas fa-globe"></i> English <i class="fas fa-chevron-down"></i>
+                        </li>
+                        <li><i class="fas fa-user"></i> Contact Sales</li>
+                    </ul>
+                    <ul class="list-unstyled d-flex">
+                        <li class="pe-4"><i class="fas fa-search"></i></li>
+                        <li class="pe-2">Log in</li>
+                        <li class="px-4">Customer Support</li>
+                        <li class="pe-4">About <i class="fas fa-chevron-down"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row hamburger-menu">
+                <!-- menu nav / hamburger menu -->
+                <div class="col-1 nav-menu d-flex align-items-center">
+                    <img class="logo d-none d-lg-flex" src="img/www.hubspot.com_.png" alt="logo hubspot desktop">
+                    <img class="logo-mobile d-lg-none" src="img/PinClipart.com_social-class-clip-art_1499246.png"
+                        alt="logo hubspot mobile">
+                </div>
+                <div class="col-9 offset-2 d-flex align-items-center justify-content-lg-between justify-content-end">
+                    <ul class="list-unstyled d-none d-lg-flex">
+                        <li class="pe-5">Software <i class="fas fa-chevron-down"></i></li>
+                        <li class="pe-5">Pricing</li>
+                        <li>Resources <i class="fas fa-chevron-down"></i></li>
+                    </ul>
+                    <ul class="pe-4 demo list-unstyled d-none d-lg-flex align-items-center">
+                        <li><button type="button" class="btn btn-primary cs-btn-primary d-flex align-items-center">Start
+                                free or get a
+                                demo</button></li>
+                    </ul>
+                    <ul class="list-unstyled d-flex d-lg-none">
+                        <li class="d-flex pe-3"><i class="fas fa-bars"></i></li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="row hamburger-menu">
-            <div class="col-1 nav-menu d-flex align-items-center">
-                <img class="logo d-none d-lg-flex" src="img/www.hubspot.com_.png" alt="logo hubspot desktop">
-                <img class="logo-mobile d-lg-none" src="img/PinClipart.com_social-class-clip-art_1499246.png" alt="logo hubspot mobile">
-            </div>
-            <div class="col-9 offset-2 d-flex align-items-center justify-content-lg-between justify-content-end">
-                <ul class="list-unstyled d-none d-lg-flex">
-                    <li class="pe-5">Software <i class="fas fa-chevron-down"></i></li>
-                    <li class="pe-5">Pricing</li>
-                    <li>Resources <i class="fas fa-chevron-down"></i></li>
-                </ul>
-                <ul class="pe-4 demo list-unstyled d-none d-lg-flex align-items-center">
-                    <li><button type="button" class="btn btn-primary cs-btn-primary d-flex align-items-center">Start
-                            free or get a
-                            demo</button></li>
-                </ul>
-                <ul class="list-unstyled d-flex d-lg-none">
-                    <li class="d-flex pe-3"><i class="fas fa-bars"></i></li>
-                </ul>
-            </div>
-        </div>
-    </div>
     </header>
+    <!-- jumbo section -->
+    <section id="jumbotron" class="container-xl">
+        <div class="row">
+            <div class="col-12 col-sm-7 col-md-6 col-lg-4 pt-5">
+                <img class="logo" src="img/www.hubspot.com_.png" alt="logo hubspot desktop"><span>CRM Platform</span>
+                <h1 class="pt-4 fw-bold">Powerful, not overpowering.</h1>
+                <p>Finally, a CRM platform that's both powerful and easy to use. Create delightful customer experiences. Have a delightful time doing it.</p>
+                <button type="button" class="py-4 px-4 btn btn-primary cs-btn-primary">Start
+                    free or get a
+                    demo</button>
+                <p class="quote pt-4">Get started with free tools, or get more with our premium software.</p>
+            </div>
+            <div class="col-12 col-sm-5 col-md-6 col-lg-8 position-relative">
+                <img class="jumbotron-logo position-absolute" src="img/hubspot-jumbo.webp" alt="hubspot jumbotron">
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>

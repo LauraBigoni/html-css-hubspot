@@ -24,7 +24,7 @@ li {
     color: #00A4BD;
 }
 
-.fa-bars  {
+.fa-bars {
     font-size: 28px;
 }
 
@@ -53,9 +53,11 @@ img.logo-mobile {
 
 /* Header */
 header {
+    background-color: #fff;
     box-sizing: content-box;
     box-shadow: -10px 5px 10px -5px lightgray;
 }
+
 .settings {
     font-size: 14px;
 }
@@ -70,6 +72,50 @@ header {
 }
 
 /* Main */
+h1 {
+    font-size: 40px;
+}
 
+.quote {
+    font-weight: 200;
+}
+
+p {
+    font-size: 18px
+}
+
+#jumbotron {
+    padding-top: 50px;
+}
+
+.jumbotron-logo {
+    width: 600px;
+    min-height: 500px;
+}
+
+@media screen and (min-width: 680px) {
+    .jumbotron-logo {
+        width:600px;
+        right: calc(0% - 18rem);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .jumbotron-logo {
+        right: calc(0% - 11rem);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .jumbotron-logo {
+        right: 10px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #jumbotron {
+        padding-top: 100px;
+    }
+}
 
 /* Footer */
