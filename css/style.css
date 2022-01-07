@@ -12,6 +12,7 @@ li {
     cursor: pointer;
 }
 
+/* Utilities */
 .nav-menu ul {
     padding-left: 20px;
 }
@@ -48,8 +49,28 @@ img.logo-mobile {
     filter: opacity(0.5);
 }
 
-/* Utilities */
+.cs-btn-secondary {
+    background-color: #fff;
+    border-color: #FF7A59;
+    color: #FF7A59;
+}
 
+.cs-btn-secondary:hover {
+    background-color: #ff7a596c;
+    border-color: #FF7A59;
+}
+
+p {
+    font-size: 18px
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.quote {
+    font-weight: 200;
+}
 
 /* Header */
 header {
@@ -71,38 +92,50 @@ header {
     margin-bottom: 0;
 }
 
-/* Main */
-h1 {
-    font-size: 40px;
-}
-
-.quote {
-    font-weight: 200;
-}
-
-p {
-    font-size: 18px
-}
-
+/* Jumbotron */
 #jumbotron {
     padding-top: 50px;
+    height: 600px;
 }
 
 .jumbotron-logo {
     width: 600px;
-    min-height: 500px;
+    height: 550px;
+}
+
+/* Buisness plans */
+#buisness-plans {
+    background-color: #F5F8FA;
+    padding-top: 500px;
+}
+
+#buisness-plans .cs-btn-primary,
+#buisness-plans .cs-btn-secondary {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Media */
+@media screen and (min-width: 575px) {
+    #buisness-plans {
+        padding-top: 0px;
+    }
 }
 
 @media screen and (min-width: 680px) {
     .jumbotron-logo {
-        width:600px;
         right: calc(0% - 18rem);
     }
 }
 
 @media screen and (min-width: 768px) {
     .jumbotron-logo {
-        right: calc(0% - 11rem);
+        right: calc(0% - 12rem);
+    }
+    #buisness-plans .cs-btn-primary,
+    #buisness-plans .cs-btn-secondary {
+        width: auto;
+        margin-bottom: 0px;
     }
 }
 
@@ -113,9 +146,10 @@ p {
 }
 
 @media screen and (min-width: 992px) {
+    .jumbotron-logo {
+        height: 500px;
+    }
     #jumbotron {
         padding-top: 100px;
     }
 }
-
-/* Footer */
