@@ -24,9 +24,17 @@ li {
     color: #00A4BD;
 }
 
+.fa-bars  {
+    font-size: 28px;
+}
+
 img.logo {
     height: 40px;
     margin-bottom: 5px;
+}
+
+img.logo-mobile {
+    height: 40px;
 }
 
 .cs-btn-primary {
@@ -53,7 +61,7 @@ header {
 }
 
 .hamburger-menu {
-    height: 80px;
+    height: 60px;
     font-size: 18px;
 }
 

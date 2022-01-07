@@ -25,9 +25,9 @@
 
 <body>
     <header class="container-fluid">
-        <div class="container">
+        <div class="container-xl">
         <div class="row">
-            <div class="col settings d-flex justify-content-between pt-3">
+            <div class="col settings d-flex justify-content-between pt-3 d-none d-lg-flex">
                 <ul class="list-unstyled d-flex">
                     <li class="pe-5 ps-2"><i class="fas fa-globe"></i> English <i class="fas fa-chevron-down"></i></li>
                     <li><i class="fas fa-user"></i> Contact Sales</li>
@@ -36,24 +36,28 @@
                     <li class="pe-4"><i class="fas fa-search"></i></li>
                     <li class="pe-2">Log in</li>
                     <li class="px-4">Customer Support</li>
-                    <li>About <i class="fas fa-chevron-down"></i></li>
+                    <li class="pe-4">About <i class="fas fa-chevron-down"></i></li>
                 </ul>
             </div>
         </div>
         <div class="row hamburger-menu">
-            <div class="col-2 nav-menu d-flex align-items-center">
-                <img class="logo" src="img/www.hubspot.com_.png" alt="logo hubspot">
+            <div class="col-1 nav-menu d-flex align-items-center">
+                <img class="logo d-none d-lg-flex" src="img/www.hubspot.com_.png" alt="logo hubspot desktop">
+                <img class="logo-mobile d-lg-none" src="img/PinClipart.com_social-class-clip-art_1499246.png" alt="logo hubspot mobile">
             </div>
-            <div class="col-10 d-flex align-items-center justify-content-between">
-                <ul class="list-unstyled d-flex">
+            <div class="col-9 offset-2 d-flex align-items-center justify-content-lg-between justify-content-end">
+                <ul class="list-unstyled d-none d-lg-flex">
                     <li class="pe-5">Software <i class="fas fa-chevron-down"></i></li>
                     <li class="pe-5">Pricing</li>
                     <li>Resources <i class="fas fa-chevron-down"></i></li>
                 </ul>
-                <ul class="demo list-unstyled d-flex align-items-center">
+                <ul class="pe-4 demo list-unstyled d-none d-lg-flex align-items-center">
                     <li><button type="button" class="btn btn-primary cs-btn-primary d-flex align-items-center">Start
                             free or get a
                             demo</button></li>
+                </ul>
+                <ul class="list-unstyled d-flex d-lg-none">
+                    <li class="d-flex pe-3"><i class="fas fa-bars"></i></li>
                 </ul>
             </div>
         </div>
