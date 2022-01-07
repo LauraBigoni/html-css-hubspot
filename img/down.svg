@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="28px" viewBox="0 0 27 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.4996 0.180834031 14.8176 0.180834031 14.8176 13 0.4996 13"></polygon>
+    </defs>
+    <g id="About-Us-[Approved]" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About-Us---Desktop---CMS-Update" transform="translate(-908.000000, -2317.000000)">
+            <g id="Product-Cards---About-Us---Mobile" transform="translate(0.000000, 2153.000000)">
+                <g id="Product-Cards" transform="translate(187.000000, 126.000000)">
+                    <g id="Row-1" transform="translate(341.000000, 0.000000)">
+                        <g id="Sales-Hub" transform="translate(341.000000, 0.000000)">
+                            <g id="CMS-Hub" transform="translate(39.000000, 37.000000)">
+                                <g id="Group-4" transform="translate(0.000000, 1.000000)">
+                                    <g id="Group-3" transform="translate(12.000000, 14.457900)">
+                                        <mask id="mask-2" fill="white">
+                                            <use xlink:href="#path-1"></use>
+                                        </mask>
+                                        <g id="Clip-2"></g>
+                                        <path d="M7.5546,2.645 L1.2176,0.19 C0.8426,0.125 0.4996,0.414 0.4996,0.794 L0.4996,9.896 C0.4996,10.195 0.7156,10.45 1.0106,10.5 L7.5546,12.992 C7.6236,13.003 7.6936,13.003 7.7626,12.992 L14.3076,10.5 C14.6016,10.45 14.8176,10.195 14.8176,9.896 L14.8176,0.794 C14.8176,0.414 14.4746,0.125 14.0996,0.19 L7.7626,2.645 C7.6936,2.657 7.6236,2.657 7.5546,2.645" id="Fill-1" fill="#FF7A59" mask="url(#mask-2)"></path>
+                                    </g>
+                                    <path d="M9.3178,20.4251 C5.8558,19.0341 3.5098,15.4521 4.0218,11.3891 C4.5058,7.5491 7.6568,4.4441 11.5038,4.0081 C16.6708,3.4241 21.0478,7.4501 21.0478,12.5001 C21.0478,12.8061 20.9578,12.9661 21.1748,13.1821 C21.5168,13.5221 24.6138,12.0051 24.6138,12.0051 C24.8238,11.9241 24.9618,11.7121 24.9428,11.4881 C24.4088,4.8341 18.6798,-0.3529 11.8058,0.0191 C5.4588,0.3621 0.2708,5.6241 0.0108,11.9761 C-0.2292,17.8471 3.5868,22.8531 8.8818,24.4531 C9.1988,24.5491 9.5188,24.3021 9.5158,23.9711 C9.5098,23.0061 9.5028,21.2591 9.5008,20.6851 C9.5008,20.5671 9.4278,20.4691 9.3178,20.4251" id="Fill-4" fill="#33475B"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

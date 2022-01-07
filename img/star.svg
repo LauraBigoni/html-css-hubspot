@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/SVG/Marketing</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 24.7770845 0 24.7770845 24.9997 0 24.9997"></polygon>
+        <polygon id="path-3" points="0.388672946 0 12.7195655 0 12.7195655 16.3600237 0.388672946 16.3600237"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Product-Icons" transform="translate(-120.000000, -258.000000)">
+            <g id="Icons/SVG/Marketing" transform="translate(120.000000, 258.000000)">
+                <g id="Group-3">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M20.3928,15.7627 C19.0728,18.9537 15.8838,21.1757 12.1858,21.0427 C7.9398,20.8897 4.3428,17.4797 3.9838,13.2457 C3.6198,8.9457 6.4428,5.2507 10.3468,4.2357 C10.4178,4.2177 10.4878,4.1907 10.5518,4.1557 L14.4908,1.9847 C15.3388,1.5157 15.0928,0.2407 14.1318,0.1097 C13.1328,-0.0253 12.0958,-0.0403 11.0308,0.0887 C4.8658,0.8347 0.0558,6.1767 -0.0002,12.3867 C-0.0612,19.3427 5.5588,24.9997 12.4998,24.9997 C18.5838,24.9997 23.6418,20.6517 24.7578,14.8937 C24.9218,14.0497 24.0068,13.4037 23.2648,13.8387 L20.8058,15.2787 C20.6178,15.3887 20.4758,15.5607 20.3928,15.7627" id="Fill-1" fill="#33475B" mask="url(#mask-2)"></path>
+                </g>
+                <g id="Group-6" transform="translate(12.000000, 0.000000)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Clip-5"></g>
+                    <path d="M11.9631,9.2911 L10.2621,8.7831 L12.6971,0.6361 C12.8241,0.2121 12.3881,-0.1499 12.0061,0.0621 L1.0611,6.1581 C0.6791,6.3711 0.7331,6.9451 1.1461,7.0681 L2.8471,7.5771 L0.4111,15.7241 C0.2841,16.1481 0.7211,16.5101 1.1021,16.2971 L12.0481,10.2021 C12.4301,9.9891 12.3761,9.4151 11.9631,9.2911" id="Fill-4" fill="#FF7A59" mask="url(#mask-4)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

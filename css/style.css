@@ -1,0 +1,67 @@
+/* Generics */
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    color: #33475B;
+}
+
+li {
+    cursor: pointer;
+}
+
+.nav-menu ul {
+    padding-left: 20px;
+}
+
+.fa-chevron-down {
+    font-size: 12px;
+}
+
+.fa-search {
+    color: #00A4BD;
+}
+
+img.logo {
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.cs-btn-primary {
+    background-color: #FF7A59;
+    border-color: #FF7A59;
+}
+
+.cs-btn-primary:hover {
+    background-color: #FF7A59;
+    border-color: #FF7A59;
+    filter: opacity(0.5);
+}
+
+/* Utilities */
+
+
+/* Header */
+header {
+    box-sizing: content-box;
+    box-shadow: -10px 5px 10px -5px lightgray;
+}
+.settings {
+    font-size: 14px;
+}
+
+.hamburger-menu {
+    height: 80px;
+    font-size: 18px;
+}
+
+.hamburger-menu ul {
+    margin-bottom: 0;
+}
+
+/* Main */
+
+
+/* Footer */
