@@ -186,6 +186,17 @@ img.settings-icon {
     font-weight: bold;
 }
 
+/* Sponsor */
+#sponsor {
+    background-color: #fff;
+}
+#sponsor img {
+    width: 70%;
+    
+}
+.sponsors-logo {
+    height: 200px;
+}
 /* Media */
 @media screen and (min-width: 575px) {
     #jumbotron {
