@@ -125,9 +125,42 @@ header {
     margin-bottom: 20px;
 }
 
-.product {
+.product .content {
     background-color: #fff;
+    border-radius: 5px;
+    padding: 30px 40px;
+    box-shadow: 0 0 11px lightgray;
 }
+
+.content p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.content p.features {
+    font-size: 18px;
+}
+
+.cs-symbol {
+    font-size: 40px;
+    font-weight: 200;
+}
+
+div.divider {
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 10px;
+}
+
+.fa-check-circle {
+    color: #FF7A59;
+}
+
+img.settings-icon {
+    width: 32px;
+}
+
+/* Marketing */
+
 
 /* Media */
 @media screen and (min-width: 575px) {
