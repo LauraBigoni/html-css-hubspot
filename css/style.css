@@ -31,16 +31,16 @@ li {
 }
 
 img.logo {
-    height: 40px;
+    width: 100px;
     margin-bottom: 5px;
 }
 
 img.logo-mobile {
-    height: 40px;
+    width: 40px;
     cursor: pointer;
 }
 
-span {
+#jumbotron span {
     font-size: 26px;
     font-weight: 600;
 }
@@ -117,6 +117,7 @@ header {
 /* Buisness plans */
 #buisness-plans {
     background-color: #F5F8FA;
+    padding-bottom: 100px;
 }
 
 #buisness-plans .cs-btn-primary,
@@ -137,7 +138,8 @@ header {
     font-size: 14px;
 }
 
-.content p.features {
+.content p.features,
+#marketing p {
     font-size: 18px;
 }
 
@@ -160,7 +162,29 @@ img.settings-icon {
 }
 
 /* Marketing */
+#marketing {
+    background-color: #00B5AC;
+    padding-top: 50px;
+    color: white;
+}
 
+#marketing img {
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+#marketing p {
+    margin-bottom: 0;
+}
+
+#marketing .community-board {
+    margin-bottom: 60px;
+}
+
+#marketing .community-board p:first-of-type {
+    font-size: 40px;
+    font-weight: bold;
+}
 
 /* Media */
 @media screen and (min-width: 575px) {
