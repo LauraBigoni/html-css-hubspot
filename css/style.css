@@ -197,6 +197,23 @@ img.settings-icon {
 .sponsors-logo {
     height: 200px;
 }
+
+/* Jumbotron demo*/
+#jumbotron-demo img {
+    height: 100%;
+}
+
+.jumbotron-demo-section {
+    height: 350px;
+}
+
+#jumbotron-demo h1 {
+    font-size: 26px;
+}
+
+/* Footer */
+
+
 /* Media */
 @media screen and (min-width: 575px) {
     #jumbotron {
@@ -224,6 +241,9 @@ img.settings-icon {
     #buisness-plans .cs-btn-secondary {
         width: auto;
         margin-bottom: 0px;
+    }
+    .jumbotron-demo-section {
+        height: 450px;
     }
 }
 
