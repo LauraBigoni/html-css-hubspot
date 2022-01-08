@@ -178,7 +178,7 @@ img.settings-icon {
 }
 
 #marketing .community-board {
-    margin-bottom: 60px;
+    margin: 30px 0;
 }
 
 #marketing .community-board p:first-of-type {
@@ -195,6 +195,16 @@ img.settings-icon {
     #buisness-plans {
         padding-top: 0px;
     }
+    #marketing .cs-border-style {
+        border-right: 1px solid;
+        border-bottom: 1px solid;
+    }
+    #marketing .cs-border-style:nth-child(2n) {
+        border-right: 0;
+    }
+    #marketing .cs-border-style:nth-child(n+7) {
+        border-bottom: 0;
+    }
 }
 
 
@@ -209,5 +219,14 @@ img.settings-icon {
 @media screen and (min-width: 992px) {
     #jumbotron {
         padding-top: 99px;
+    }
+    #marketing .cs-border-style:nth-child(2n) {
+        border-right: 1px solid;
+    }
+    #marketing .cs-border-style:nth-child(n+5) {
+        border-bottom: 0;
+    }
+    #marketing .cs-border-style:nth-child(4n) {
+        border-right: 0;
     }
 }
