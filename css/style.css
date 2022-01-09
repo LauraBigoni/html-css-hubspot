@@ -212,7 +212,53 @@ img.settings-icon {
 }
 
 /* Footer */
+#bottom-menu {
+    background-color: #2D3E50;
+}
 
+#bottom-menu .cs-border-menu {
+    border-bottom: 1px solid;
+}
+
+.social-links i {
+    padding: 0 10px;
+    font-size: 30px;
+    filter: opacity(0.8);
+    cursor: pointer;
+}
+
+.social-links i:hover,
+.legal-privacy li.text-decoration-underline:hover {
+    color: #7FD1DE;
+}
+
+#bottom-menu img {
+    margin: 20px 10px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#bottom-menu img.hubspot-wordmarkwhite {
+    width: 15%;
+}
+
+#bottom-menu p {
+    font-size: 14px;
+}
+
+#bottom-menu li {
+    font-size: 12px;
+    line-height: 25px;
+}
+
+#bottom-menu .separate {
+    color: #3e597a;
+}
+
+.expand-list,
+#bottom-menu .divider {
+    display: none;
+}
 
 /* Media */
 @media screen and (min-width: 575px) {
@@ -259,5 +305,17 @@ img.settings-icon {
     }
     #marketing .cs-border-style:nth-child(4n) {
         border-right: 0;
+    }
+    #bottom-menu .cs-border-menu {
+        border-bottom: 0;
+    }
+    .fa-chevron-right {
+        display: none;
+    }
+    .expand-list {
+        display: inline;
+    }
+    #bottom-menu .divider {
+        display: inline-block;
     }
 }
